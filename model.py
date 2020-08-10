@@ -13,7 +13,7 @@ df
 df['species'] = df.species.map({'setosa':0,'virginica':1,'versicolor':2})
 df
 
-###################3 VISUALIZATION #############################
+################### VISUALIZATION #############################
 df.corr()
 
 fig = plt.figure(figsize=(12,10))
